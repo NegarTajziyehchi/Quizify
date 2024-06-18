@@ -66,4 +66,19 @@
   - Follow the instruction on [Install the gcloud CLI](https://cloud.google.com/sdk/docs/install)
 </details>
 
+# 1. Document Processor
+
+As part of our Data Ingestion Pipeline, we will build a Data Processor class in the task_3.py file. 
+
+
+<img width="750" alt="2_FileUploader" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/5c91627a-c838-4a4c-8345-ae4aace02d03">
+
+Run the following command in the command line to start the Streamlit app.
+
+```bash
+streamlit run task_3/task_3.py
+```
+
+<img width="750" alt="2_FileUploader" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/8623c48f-c788-40cf-a142-53a98ed82678">
+
 
