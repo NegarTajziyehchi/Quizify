@@ -66,7 +66,7 @@
   - Follow the instruction on [Install the gcloud CLI](https://cloud.google.com/sdk/docs/install)
 </details>
 
-# 1. Document Processor
+# 2. Document Processor
 
 As part of our Data Ingestion Pipeline, we will build a Data Processor class in the task_3.py file. 
 
@@ -81,4 +81,8 @@ streamlit run task_3/task_3.py
 
 <img width="750" alt="2_FileUploader" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/8623c48f-c788-40cf-a142-53a98ed82678">
 
+# 3. Embedding with VertexAI & Langchain
 
+We are taking our documents from Task 3 and pushing them into the embeddings client in the task_4.py file.
+
+<img width="750" alt="3_Embedding" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/45bb6dcc-403f-40b1-88ac-4ef183b86735">
