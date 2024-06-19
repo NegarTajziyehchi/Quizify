@@ -86,3 +86,23 @@ streamlit run task_3/task_3.py
 We are taking our documents from Task 3 and pushing them into the embeddings client in the task_4.py file.
 
 <img width="750" alt="3_Embedding" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/45bb6dcc-403f-40b1-88ac-4ef183b86735">
+
+
+# 4. Data Integration Pipeline to ChromaDB
+
+In this step, we will take our PDF data from task_3.py. Utilizing the document processing class, we'll divide the document into manageable chunks. Next, these document segments will be sent to our embedding client, which was constructed in task_4.py. This client will be integrated as a parameter within our ChromaDB database. ChromaDB will employ the embedding methods from our client to generate embeddings for each document chunk. Finally, it will index and store these vectors in its in-memory database.
+
+<img width="750" alt="5_ChromaDBPipeline" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/c2916db9-0ef1-4b9b-b0eb-659fc1e3c0dd">
+
+
+<img width="750" alt="6_Split_Pages" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/4e19a22e-b0ce-4125-b0a2-078641e0e8ff">
+
+<details>
+
+<summary>ChromaDB</summary>
+
+ChromaDB is an open-source database developed for storing and using vector embeddings. You can read more about it [here](https://docs.trychroma.com/).
+
+<img width="750" alt="4_Chroma" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/6b3450eb-fc4e-46ad-97aa-c84ebc66e57c">
+
+</details>
