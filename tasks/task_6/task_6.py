@@ -1,7 +1,7 @@
 import sys
 import os
 import streamlit as st
-sys.path.append(os.path.abspath('../../'))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 from tasks.task_3.task_3 import DocumentProcessor
 from tasks.task_4.task_4 import EmbeddingClient
 from tasks.task_5.task_5 import ChromaCollectionCreator

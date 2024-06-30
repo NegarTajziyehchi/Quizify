@@ -106,3 +106,7 @@ ChromaDB is an open-source database developed for storing and using vector embed
 <img width="750" alt="4_Chroma" src="https://github.com/NegarTajziyehchi/Quizify/assets/6012786/6b3450eb-fc4e-46ad-97aa-c84ebc66e57c">
 
 </details>
+
+
+# 5.Quiz Generator Class
+
